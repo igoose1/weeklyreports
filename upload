@@ -1,0 +1,4 @@
+#!/bin/sh -x
+
+hugo || exit 1
+rsync -avz --delete public/ oskarsh.ru:/srv/weekly
