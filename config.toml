@@ -1,0 +1,12 @@
+baseURL = "https://weekly.oskarsh.ru/"
+defaultContentLanguage = "ru"
+title = "Еженедельные репорты"
+theme = "PaperMod"
+
+[params]
+defaultTheme = "auto"
+showReadingTime = true
+author = "Оскар"
+dateFormat = "2006-01-01"
+disableScrollToTop = true
+enableRobotsTXT = true
