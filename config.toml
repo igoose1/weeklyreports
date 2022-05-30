@@ -1,6 +1,6 @@
 baseURL = "https://weekly.oskarsh.ru/"
 defaultContentLanguage = "ru"
-title = "Еженедельные репорты"
+title = "Еженедельные отчеты"
 theme = "PaperMod"
 
 [params]
@@ -10,3 +10,6 @@ author = "Оскар"
 dateFormat = "2006-01-01"
 disableScrollToTop = true
 enableRobotsTXT = true
+
+[outputs]
+home = [ "HTML", "RSS" ]
