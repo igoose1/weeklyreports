@@ -7,7 +7,7 @@ theme = "PaperMod"
 defaultTheme = "auto"
 showReadingTime = true
 author = "Оскар"
-dateFormat = "2006-01-01"
+dateFormat = "2006-01-02"
 disableScrollToTop = true
 enableRobotsTXT = true
 
