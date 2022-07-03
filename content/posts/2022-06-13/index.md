@@ -9,7 +9,7 @@ draft: false
 В 10 вечера, после пятничного рабочего дня, увидел сообщение от какого-то
 рекрутера. Написал ответ и получил это:
 
-![work-life balance](saturday_hr.png)
+![work-life balance](saturday_hr.webp)
 
 ## Чтение
 

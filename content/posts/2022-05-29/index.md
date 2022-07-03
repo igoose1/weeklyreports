@@ -5,7 +5,7 @@ date: 2022-05-29T03:17:38+03:00
 
 Привет, вселенная!
 
-![Звезды](stars.jpg)
+![Звезды](stars.webp)
 
 Это первая попытка в публичный недельный отчет. Он без обязательств и никто не
 должен удивляться, если он станет последним. Его цель в первую очередь показать
@@ -19,7 +19,7 @@ Music и обновил личную коллекцию. Из интересно
 "System of a Down", а еще пару раз прослушал новый альбом "Яд" Алёны Швец.
 Соседний альбом "Противоядие" слушать не получилось: нет пиров!
 
-![Transmission качает альбомы](transmission.png)
+![Transmission качает альбомы](transmission.webp)
 
 ## Книги
 
@@ -69,7 +69,7 @@ Music и обновил личную коллекцию. Из интересно
 найти какую-то библиотечку. Dynamic linking, [fuck
 you](http://harmful.cat-v.org/software/dynamic-linking/)!
 
-![Shared object "libffi.so.7" not found, required by "hledger"](hledger-fails.png)
+![Shared object "libffi.so.7" not found, required by "hledger"](hledger-fails.webp)
 
 ## Люди
 
