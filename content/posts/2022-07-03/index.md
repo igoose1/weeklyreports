@@ -28,9 +28,9 @@ Actions донесет всю красоту до вас.
 "парсетландить" 🐍. Чем-то могу поделиться:
 
 * Generator Tricks For Systems Programmers:
-  https://www.dabeaz.com/generators/Generators.pdf;
+  https://www.dabeaz.com/generators/Generators.pdf,
 * Generic Functions with Python's Singledispatch:
-  https://rednafi.github.io/digressions/python/2020/04/05/python-singledispatch.html;
+  https://rednafi.github.io/digressions/python/2020/04/05/python-singledispatch.html,
 * JSON Web Tokens: https://youtu.be/825hodQ61bg.
 
 ## Шахматы
