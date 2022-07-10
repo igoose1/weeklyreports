@@ -5,21 +5,23 @@ theme = ["hugo-video", "PaperMod"]
 copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 
 [params]
-defaultTheme = "auto"
-showReadingTime = true
-author = "Оскар"
-dateFormat = "2006-01-02"
-disableScrollToTop = true
-enableRobotsTXT = true
+	defaultTheme = "auto"
+	showReadingTime = true
+	author = "Оскар"
+	dateFormat = "2006-01-02"
+	disableScrollToTop = true
+	enableRobotsTXT = true
 
-[params.homeInfoParams]
-title = "Йоу, я Оскар 👋"
-content = """
-Для контактов смотри [сюда](https://oskarsh.ru/contact/).
+	[params.homeInfoParams]
+	title = "Йоу, я Оскар 👋"
+	content = """Для контактов смотри [сюда](https://oskarsh.ru/contact/).
 
 Текст отчетов распространяется под лицензией [CC BY-SA
-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ru).
-"""
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ru)."""
 
 [outputs]
-home = ["HTML", "RSS"]
+	home = ["HTML", "RSS"]
+
+[markup]
+	[markup.goldmark.renderer]
+		unsafe = true
