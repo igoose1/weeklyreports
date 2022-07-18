@@ -1,3 +1,6 @@
 *.lock
 
 /public/
+
+# this is a local symlink to the last draft
+/draft.md
