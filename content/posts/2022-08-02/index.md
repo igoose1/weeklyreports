@@ -113,7 +113,8 @@ Zettelkasten можно пересоздать!
 
 Погнали фигачить.
 
-![Фонтаны и радуга](rainbow.webp)
+![Фонтаны и радуга](rainbow.webp "Человек, тень которого справа, заметил, что
+без отчетов я бы радугу не фотографировал. Наверное, это правда.")
 
 [amdm]: https://amdm.ru/akkordi/alyona_svec/177377/skeyter/
 [gh]: https://github.com/igoose1/support-bot
