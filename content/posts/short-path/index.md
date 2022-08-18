@@ -19,14 +19,6 @@ draft: false
 дорогу, которая больше направлена в сторону цели, даже если итоговый путь
 получится длиннее. Вот такой хак мозга для экономии энергии.
 
-> Instead of calculating minimal distances, we found that the most predictive
-> model was not one that found the shortest path, but instead one that tried to
-> minimize angular displacement — pointing directly toward the destination as
-> much as possible, even if traveling at larger angles would actually be more
-> efficient,” says Paolo Santi, a principal research scientist in the Senseable
-> City Lab and at the Italian National Research Council, and a corresponding
-> author of the paper. “We have proposed to call this the pointiest path.
-
 [How Does Our Brain Navigates Cities? Choosing the "Pointiest" Path, Not the
 Shortest][ref]
 
