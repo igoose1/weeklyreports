@@ -5,16 +5,20 @@ theme = ["hugo-video", "PaperMod"]
 copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 
 [params]
-	showPostNavLinks = true
 	defaultTheme = "auto"
 	showReadingTime = true
 	author = "Оскар"
 	dateFormat = "2006-01-02"
 	disableScrollToTop = true
+	disableFingerprinting = true
 	enableRobotsTXT = true
+	showPostNavLinks = true
 
 	[params.assets]
 	disableHLJS = true
+
+	[params.fuseOpts]
+	keys = ["title", "permalink", "summary", "content"]
 
 	[params.homeInfoParams]
 	title = "Йоу, я Оскар 👋"
@@ -28,7 +32,7 @@ copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/deed.ru"""
 
 [outputs]
-	home = ["HTML", "RSS"]
+	home = ["HTML", "RSS", "JSON"]
 
 [markup]
 	[markup.goldmark.renderer]
