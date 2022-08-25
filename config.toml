@@ -4,6 +4,31 @@ title = "Еженедельные отчеты"
 theme = ["hugo-video", "PaperMod"]
 copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 
+[menu]
+	[[menu.main]]
+		identifier = "about"
+		name = "Что происходит?"
+		url = "/about/"
+		weight = 1
+
+	[[menu.main]]
+		identifier = "search"
+		name = "Поиск"
+		url = "/search/"
+		weight = 2
+
+	[[menu.main]]
+		identifier = "contact"
+		name = "Связаться"
+		url = "https://oskarsh.ru/contact"
+		weight = 3
+
+	[[menu.main]]
+		identifier = "rss"
+		name = "RSS"
+		url = "/index.xml"
+		weight = 4
+
 [params]
 	defaultTheme = "auto"
 	showReadingTime = true
@@ -22,13 +47,8 @@ copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 
 	[params.homeInfoParams]
 	title = "Йоу, я Оскар 👋"
-	content = """Мои [контакты][con]; наш [чат][cht]; ваш [rss][rss].
+	content = """Текст распространяется под [CC BY-SA 4.0][cc].
 
-Текст распространяется под [CC BY-SA 4.0][cc].
-
-[con]: https://oskarsh.ru/contact
-[cht]: https://t.me/FlamingoSays
-[rss]: https://weekly.oskarsh.ru/index.xml
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/deed.ru"""
 
 [outputs]
