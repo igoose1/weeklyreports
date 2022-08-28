@@ -99,9 +99,9 @@ draft: false
 Хотел попробовать и написал небольшие странички. Если не глядели, вот они:
 
 1. Личное: ["Хаос в голове был
-	 всегда"](http://localhost:1313/posts/chaos-in-the-head/)
-2. Интересное: ["Самый быстрый путь"](http://localhost:1313/posts/short-path/)
-3. Смешное: ["Встречаются осьминог и паук"](http://localhost:1313/posts/handshake/)
+	 всегда"](https://weekly.oskarsh.ru/posts/chaos-in-the-head/)
+2. Интересное: ["Самый быстрый путь"](https://weekly.oskarsh.ru/posts/short-path/)
+3. Смешное: ["Встречаются осьминог и паук"](https://weekly.oskarsh.ru/posts/handshake/)
 
 ## Генеративное искусство
 
