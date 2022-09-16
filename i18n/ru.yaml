@@ -1,0 +1,8 @@
+- id: prev_page
+  translation: "Назад в будущее"
+
+- id: next_page
+  translation: "Вперед в прошлое"
+
+- id: read_time
+  translation: "{{ .Count }} минут"
