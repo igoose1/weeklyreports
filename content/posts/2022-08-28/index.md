@@ -132,11 +132,8 @@ draft: false
 будет похожа на задумку и кому-то даже не стыдно будет это на аву поставить.
 Интересный опыт!
 
-<script async src="https://telegram.org/js/telegram-widget.js?19"
-data-telegram-post="FlamingoSays/16032"></script>
-
-<script async src="https://telegram.org/js/telegram-widget.js?19"
-data-telegram-post="FlamingoSays/16033"></script>
+{{< telegram "FlamingoSays/16032" >}}
+{{< telegram "FlamingoSays/16033" >}}
 
 ## До встречи!
 
