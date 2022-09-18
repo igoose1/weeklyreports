@@ -5,4 +5,4 @@
   translation: "Вперед в прошлое"
 
 - id: read_time
-  translation: "{{ .Count }} минут"
+  translation: "{{ .Count }} чево-та"
