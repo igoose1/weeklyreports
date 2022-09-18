@@ -15,7 +15,7 @@ draft: false
 Извините, но если Dream выпускает видео, скорее всего "что-то недели" будет
 ссылкой на него. Потому что это лучшее, что я вижу в ютубе.
 
-{{<youtube id="wwkH0prchjQ" title="Minecraft Speedrunner VS $1,000,000 MrBeast Challenge">}}
+{{< youtube wwkH0prchjQ >}}
 
 ## Продуктивность
 

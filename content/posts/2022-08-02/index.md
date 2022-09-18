@@ -8,11 +8,11 @@ draft: false
 
 О-о-о-о-о-о-о-о-о
 
-{{<youtube id="inG69xYWROw" title="ДДТ - Просвистела" >}}
+{{< youtube inG69xYWROw >}}
 
 О-о-о-о-о-о-о-о-о
 
-{{<youtube id="5CRRRH_DVHE" title="Операция Пластилин - Просвистела" >}}
+{{< youtube 5CRRRH_DVHE >}}
 
 ## Приложение недели
 
