@@ -29,12 +29,6 @@ copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 		url = "/search/"
 		weight = 4
 
-	[[menu.main]]
-		identifier = "rss"
-		name = "RSS"
-		url = "/index.xml"
-		weight = 5
-
 [params]
 	defaultTheme = "auto"
 	showReadingTime = true
