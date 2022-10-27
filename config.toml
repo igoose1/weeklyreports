@@ -12,9 +12,9 @@ copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 		weight = 1
 
 	[[menu.main]]
-		identifier = "search"
-		name = "Поиск"
-		url = "/search/"
+		identifier = "flamingo"
+		name = "фламинго 🦩"
+		url = "/flamingo/"
 		weight = 2
 
 	[[menu.main]]
@@ -24,10 +24,16 @@ copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
 		weight = 3
 
 	[[menu.main]]
+		identifier = "search"
+		name = "Поиск"
+		url = "/search/"
+		weight = 4
+
+	[[menu.main]]
 		identifier = "rss"
 		name = "RSS"
 		url = "/index.xml"
-		weight = 4
+		weight = 5
 
 [params]
 	defaultTheme = "auto"
