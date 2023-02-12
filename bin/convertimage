@@ -1,0 +1,23 @@
+#!/bin/sh
+
+if ! command -v cwebp > /dev/null 2>&1; then
+        echo >&2 "cwebp can't be executed."
+        exit 2
+fi
+
+if [ "$#" -ne 2 ] || ! [ -f "$1" ]; then
+        echo >&2 "Usage: $0 ORIG DEST"
+        exit 2
+fi
+
+ORIG="$1"
+DEST="$2"
+
+printf "ORIG: %s; DEST: %s\n" "$ORIG" "$DEST"
+
+EXT="${ORIG##*.}"
+if [ "$EXT" = ".png" ]; then
+        cwebp -lossless "$ORIG" -o "$DEST"
+else
+        cwebp "$ORIG" -o "$DEST"
+fi
