@@ -4,3 +4,6 @@
 
 # this is a local symlink to the last draft
 draft
+
+# do not accidentally index a vim swap file
+.*.swp
