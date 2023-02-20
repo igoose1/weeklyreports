@@ -2,7 +2,7 @@ baseURL = "https://weekly.oskarsh.ru/"
 defaultContentLanguage = "ru"
 title = "Еженедельные отчеты"
 theme = ["hugo-video", "PaperMod"]
-copyright = "© 2022 Шарипов Оскар (CC BY-SA 4.0)"
+copyright = "© 2022 - 2023 Шарипов Оскар (CC BY-SA 4.0)"
 
 [menu]
 	[[menu.main]]
