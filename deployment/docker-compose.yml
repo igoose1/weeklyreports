@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  blog:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    ports:
+      - "127.0.0.1:${PORT:-1222}:80"
