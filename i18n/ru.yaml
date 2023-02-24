@@ -1,8 +1,8 @@
 - id: prev_page
-  translation: "Назад в будущее"
+  translation: "Позже"
 
 - id: next_page
-  translation: "Вперед в прошлое"
+  translation: "Раньше"
 
 - id: read_time
-  translation: "{{ .Count }} чево-та"
+  translation: "{{ .Count }} мин"
