@@ -19,20 +19,13 @@ jobs:
           submodules: true
           lfs: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@c03b5dbed22245418539b65eb9a3b1d5fdd9a0a6  # v2.5.0
+      - name: Add SSH key
+        uses: shimataro/ssh-key-action@70366947e286a60c5196417e82602f5ecbcef96e  # v2.5.0
         with:
-          hugo-version: '0.97.3'
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
 
-      - name: Build static site
-        run: hugo
-
-      - name: Deploy to server
-        uses: up9cloud/action-rsync@d2ada8da628e85b41b9a43e4ac9acb3626e1d7cf
-        env:
-          HOST: ${{ secrets.DEPLOY_HOST }}
-          USER: ${{ secrets.DEPLOY_USER }}
-          KEY: ${{ secrets.DEPLOY_SSH_KEY }}
-          SOURCE: public/
-          TARGET: ${{ secrets.DEPLOY_TARGET }}
-          VERBOSE: true
+      - name: Build and deploy on the host
+        run: |
+          export DOCKER_HOST=${{ secrets.DOCKER_HOST }}
+          docker compose --file deployment/docker-compose.yml up --detach --build
