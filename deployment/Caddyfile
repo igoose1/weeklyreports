@@ -10,4 +10,5 @@ http://127.0.0.1:80 {
         }
         header /assets/css/* Cache-Control "public, max-age=604800"
         header /posts/*/*.webp Cache-Control "public, max-age=3600"
+        header /posts/* Cache-Control "public, max-age=600"
 }
