@@ -1,6 +1,7 @@
 ---
 title: "PM2.5"
 date: 2023-02-24T20:32:35+07:00
+location: "Chiang Mai, Thailand"
 draft: false
 ---
 

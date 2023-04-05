@@ -1,6 +1,7 @@
 ---
 title: "Я смотрел фильм в кинотеатре"
 date: 2023-02-24T00:53:15+07:00
+location: "Chiang Mai, Thailand"
 draft: false
 ---
 

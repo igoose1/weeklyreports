@@ -1,6 +1,7 @@
 ---
 title: "Вафельный рожок"
 date: 2023-02-27T23:43:57+07:00
+location: "Chiang Mai, Thailand"
 draft: false
 ---
 

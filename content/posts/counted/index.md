@@ -1,6 +1,7 @@
 ---
 title: "Посчитали"
-date: 2023-03-21T01:32:43+08:00
+date: 2023-03-20T12:00:00+08:00
+location: "Hat Yai, Thailand"
 draft: false
 ---
 

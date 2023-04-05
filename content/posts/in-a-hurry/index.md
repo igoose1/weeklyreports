@@ -1,6 +1,7 @@
 ---
 title: "Оскар очень спешил"
 date: 2023-03-21T01:35:53+08:00
+location: "Penang, Malaysia"
 draft: false
 ---
 

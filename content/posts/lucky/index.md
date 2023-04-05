@@ -1,6 +1,7 @@
 ---
 title: "Чат удачников напомнил мне анекдот"
 date: 2023-02-24T01:25:22+07:00
+location: "Chiang Mai, Thailand"
 draft: false
 ---
 
