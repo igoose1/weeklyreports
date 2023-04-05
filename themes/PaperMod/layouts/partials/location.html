@@ -1,0 +1,8 @@
+{{- if .Params.location }}
+{{- $location := .Params.location }}
+{{- $location_type := (printf "%T" $location) }}
+{{- if (eq $location_type "string") }}
+{{- $location_url := printf "https://www.google.com/maps/search/?api=1&query=%s" $location | safeURL }}
+<a href="{{ $location_url }}">{{- $location }}</a>
+{{- end }}
+{{- end -}}

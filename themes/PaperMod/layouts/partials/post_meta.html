@@ -13,7 +13,11 @@
 {{- end }}
 
 {{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
+{{- $scratch.Add "meta" . }}
+{{- end }}
+
+{{- with (partial "location.html" .) }}
+{{- $scratch.Add "meta" . }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
