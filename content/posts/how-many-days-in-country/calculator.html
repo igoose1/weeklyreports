@@ -1,0 +1,47 @@
+<div id="calculator" style="all: unset;">
+	<form>
+	  <label for="arriving-date">Первый день:</label>
+	  <input type="date" id="arriving-date" name="arriving-date" required>
+
+	  <br>
+
+	  <label for="departing-date">Последний:</label>
+	  <input type="date" id="departing-date" name="departing-date" required>
+
+	  <br>
+
+	  <label for="include-last-day">Учитывать последний?</label>
+	  <input type="checkbox" id="include-last-day" name="include-last-day" value="true" checked>
+
+	  <br>
+
+	  <button type="button" id="calculate-btn">Кликни меня, чтобы посчитать</button>
+	</form>
+
+	<div>
+		<p id="result"></p>
+	</div>
+
+	<script>
+	  document.getElementById('calculate-btn').addEventListener('click', function() {
+		var arrivingDate = document.getElementById('arriving-date').value;
+		var departingDate = document.getElementById('departing-date').value;
+		var includeLastDay = document.getElementById('include-last-day').checked;
+
+		if (!arrivingDate || !departingDate) {
+			return;
+		}
+
+		// Perform date calculation using JavaScript
+		// Here's an example calculation:
+		var oneDay = 24 * 60 * 60 * 1000; // milliseconds in one day
+		var diffDays = (new Date(departingDate) - new Date(arrivingDate)) / oneDay;
+		if (includeLastDay) {
+			diffDays = diffDays + 1;
+		}
+
+		// Update the result element with the calculated value
+		document.getElementById('result').innerHTML = "Дней: " + diffDays;
+	  });
+	</script>
+</div>
