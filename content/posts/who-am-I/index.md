@@ -1,6 +1,7 @@
 ---
 title: "Я кто?"
 date: 2023-02-12T23:17:39+07:00
+location: "Chiang Mai, Thailand"
 draft: false
 ---
 

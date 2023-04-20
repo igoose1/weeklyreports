@@ -30,6 +30,7 @@ copyright = "© 2022 - 2023 Шарипов Оскар (CC BY-SA 4.0)"
 		weight = 4
 
 [params]
+	env = "production"
 	defaultTheme = "auto"
 	showReadingTime = true
 	author = "Оскар"
