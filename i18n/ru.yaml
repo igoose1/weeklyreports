@@ -1,8 +1,8 @@
 - id: prev_page
-  translation: "Позже"
+  translation: "Раньше"
 
 - id: next_page
-  translation: "Раньше"
+  translation: "Позже"
 
 - id: read_time
   translation: "{{ .Count }} мин"
