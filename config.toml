@@ -56,8 +56,13 @@ copyright = "© 2022 - 2023 Шарипов Оскар (CC BY-SA 4.0)"
 	home = ["HTML", "RSS", "JSON"]
 
 [markup]
-	[markup.goldmark.renderer]
-		unsafe = true
+	[markup.goldmark]
+		[markup.goldmark.extensions]
+			linkify = true
+			linkifyProtocol = "http"
+
+		[markup.goldmark.renderer]
+			unsafe = true
 
 	[markup.highlight]
 		lineNos = true
