@@ -6,3 +6,4 @@ services:
       dockerfile: deployment/Dockerfile
     ports:
       - "127.0.0.1:${PORT:-1222}:80"
+    restart: unless-stopped
