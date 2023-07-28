@@ -29,4 +29,10 @@ draft: false
 текст в автовокзале, у меня в наушниках фигачит "Лиза" и мне приходится крепче держать
 ноутбук на коленях. А то из-за дрыганья ног улетит!
 
+Послушайте Лиду: на [Яндекс Музыке][ya], в [Ютубе][yt] или в [Спотифай][sp].
+
 [sic]: {{< ref "2022-is-gone/#преподавание" >}}
+
+[ya]: https://music.yandex.ru/artist/7714432
+[yt]: https://www.youtube.com/channel/UCPdGk36EZTJl_vt_y9ZKVSw
+[sp]: https://open.spotify.com/artist/0ChMIwzbYxHbebgoPeETfV?si=bWUO8vFYS3G6UalQPKMyEA
