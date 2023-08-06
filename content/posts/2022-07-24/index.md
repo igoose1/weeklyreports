@@ -37,7 +37,7 @@ draft: false
 стыдную правду, что запускал модуль я в окне tmux...
 
 [unidecode-commit]: https://github.com/igoose1/forest-bot/commit/a516c6afb72679adb172c481074e0776d2d20a3f
-[docker-post]: https://weekly.oskarsh.ru/posts/2022-07-11/#docker-%D0%BF%D0%BE%D0%B4-freebsd
+[docker-post]: {{< ref "2022-07-11/#docker-%D0%BF%D0%BE%D0%B4-freebsd" >}}
 [dockerize-commit]: https://github.com/igoose1/forest-bot/commit/bf1427cb1d2b742db0fd124b0cd568d477c46d75
 
 ## minitrust
