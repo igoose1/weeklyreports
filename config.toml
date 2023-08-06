@@ -52,6 +52,9 @@ copyright = "© 2022 - 2023 Шарипов Оскар (CC BY-SA 4.0)"
 
 [cc]: https://creativecommons.org/licenses/by-sa/4.0/deed.ru"""
 
+[taxonomies]
+	location = "location"
+
 [outputs]
 	home = ["HTML", "RSS", "JSON"]
 

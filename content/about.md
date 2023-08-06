@@ -14,6 +14,8 @@ showReadingTime: false
 Unix-системы, шахматы, рациональность и нерациональность, прокрастинацию,
 интернет, изучение языков, людей, деньги и стартапы. Есть шанс, что и тебя.
 
+Посты по локациям: [/location/]({{< ref "/location/" >}})
+
 Исходники постов в markdown, использованные технологии и инструкция по сборке:
 [github/igoose1/weeklyreports](https://github.com/igoose1/weeklyreports)
 
