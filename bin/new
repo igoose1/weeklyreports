@@ -1,3 +1,8 @@
-#!/bin/sh -x
+#!/bin/sh
+
+USAGE="Usage:
+  $0 slug"
+
+test -n "$1" || { printf >&2 "%s\n" "$USAGE"; exit 1; }
 
 hugo new "./content/posts/$1/index.md"
