@@ -1,5 +1,5 @@
 # build static
-FROM klakegg/hugo:0.107.0 as builder
+FROM klakegg/hugo:0.107.0 AS builder
 
 WORKDIR /blog
 COPY . /blog/
