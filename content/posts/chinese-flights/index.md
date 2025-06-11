@@ -1,7 +1,7 @@
 ---
 title: "Китайские перелеты"
 date: 2025-06-11T19:10:21+07:00
-location: "Bangkok"
+location: "Bangkok, Thailand"
 draft: false
 ---
 
