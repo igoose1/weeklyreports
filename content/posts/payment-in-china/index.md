@@ -1,7 +1,7 @@
 ---
 title: "Оплата в Китае"
-date: 2025-06-16T18:27:20+07:00
-location: "Bangkok, Thailand"
+date: 2025-06-24T18:27:20+07:00
+location: "Songkhla, Thailand"
 draft: false
 ---
 
